@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrimp Alfredo Recipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(247, 241, 202, 1.00);
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: rgba(86, 134, 82, 1.00);
+            color: rgba(230, 215, 150, 1.00);
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #3b4c47 3px solid;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-family: "Pacifico", cursive;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .intro {
+            padding: 15px;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .ingredients {
+            display: flex;
+            align-items: flex-start;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .ingredients img {
+            max-width: 30%;
+            margin-right: 20px;
+        }
+
+        .ingredients-content {
+            text-align: left;
+        }
+
+        .ingredients-content h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .ingredients ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .ingredients li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .directions {
+            padding: 15px;
+            margin-top: 15px;
+            text-align: left;
+        }
+
+        .directions h2 {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        .directions ol {
+            list-style: none;
+            padding: 0;
+        }
+
+        .directions li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .tips {
+            padding: 15px;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .tips h2 {
+            text-decoration: underline;
+        }
+
+        .tips-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .tip {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+            padding: 10px;
+            background: rgba(230, 215, 150, 1.00);
+            border-radius: 8px;
+        }
+
+        .tip h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #6a8a82;
+        }
+
+        .tip p {
+            font-size: 1em;
+            color: #333;
+        }
+
+        .center-text {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .center-content {
+            text-align: center;
+        }
+
+        .aligned-text {
+            text-align: left;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .highlight {
+            background-color: #ffeb3b;
+            font-weight: bold;
+        }
+
+        .social-share {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .social-share button {
+            background: rgba(86, 134, 82, 1.00);
+            color: rgba(230, 215, 150, 1.00);
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact {
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .contact h2 {
+            text-align: center;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact label {
+            margin: 5px 0;
+        }
+
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin: 5px 0;
+            width: 100%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact input[type="reset"], .contact input[type="submit"] {
+            width: auto;
+            padding: 10px 20px;
+            background: rgba(86, 134, 82, 1.00);
+            color: rgba(230, 215, 150, 1.00);
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <header>
+            <h1>Pasta with Smashed Zucchini Cream</h1>
+            <p>Serves 4 | Prep Time: 10 mins | Cook Time: 20 mins</p>
+        </header>
+        <section class="intro">
+            <img src="p1.jpg" alt="Shrimp Alfredo">
+            <p>If you have an endless supply of zucchini right now, this is your recipe. A simple, garlic-boosted pasta, it uses two pounds of zucchini, and is endlessly adaptable.</p>
+        </section>
+  <section class="ingredients">
+            <img src="p2.jpg" alt="Ingredients Image">
+            <div class="ingredients-content">
+                <h2>Ingredients List</h2>
+                <ul>
+                    <li>8 ounces dried pasta</li>
+                    <li>3-4 medium zucchini (2 lbs), washed</li>
+                    <li>2 tablespoons extra virgin olive oil</li>
+                    <li>6-8 medium cloves garlic, grated on</li>
+                    <li>microplanem</li>
+                    <li>1/2 teaspoon fine grain sea salt</li>
+                    <li>11/2 cups grated Parmesan or pecorino cheese (fluffy, not packed)</li>
+                    <li>1 cup basil, thinly sliced</li>
+                    <li>black pepper</li>
+                    <li>toasted almond slices</li>
+                </ul>
+            </div>
+        </section>
+        <section class="directions">
+            <h2>INSTRUCTIONS</h2>
+            <ol>
+                <li>Bring a large pot of water to a boil. Salt the water well, and boil pasta per package instructions. Drain, reserving some pasta water, and set aside.</li>
+                <li>In the meantime, slice the zucchini in half lengthwise and use a spoon to remove most of the seeds. Cut into 1/4-inch pieces. Heat the oil in a large skillet over medium heat. Add the garlic and cook until fragrant, a minute or so. Stir in the chopped zucchini and 1 1/3 cups water, cover, and simmer until the zucchini absorbs most of the water and softens, roughly 8-10 minutes. Remove from heat, and carefully, with a fork or (even better) a potato masher, smash the zucchini until creamy.</li>
+                <li>Transfer the zucchini to a large serving bowl. Add most of the cheese and most of the basil, and lots of pepper. Stir in the pasta, and a splash of the pasta water if you want to thin it out at all. Taste, and add salt if needed. Finish by topping with lots of toasted almonds, and the remaining cheese and basil.</li>
+            </ol>
+            <p class="center-text">&nbsp;</p>
+        </section>
+        <section class="tips">
+          <h2>Tips and Tricks</h2>
+            <div class="tips-content">
+                <div class="tip">
+                    <h3>Favorite adaptations.</h3>
+                    <p>Once you have your smashed zucchini sauce and pasta as a foundation, you can take this in a lot of different directions. We've been finishing it off with lots of halved cherry tomatoes plus garlic bread crumbs in place of the sliced almonds. The flavor pop of sweet from the tomatoes alongs with the crunchy crisp of the breadcrumbs is great. Alternately, you can boost the whole situation nutritionally by stirring in a few handfuls of thinly sliced kale that you've massaged with a bit of olive oil and lemon juice. You can also make more Asian-inspired, brothy version by adding more water to the zucchini, add a dollop of favorite curry paste, and use rice noodles. Top with crispy, grilled or oven roasted mushrooms and a drizzle of toasted sesame oil. Or, simply add a few dollops of pesto to the smashed zucchini sauce to up the summer basil factor.</p>
+                </div>
+                <div class="tip">
+                    <h3>Other ways to use up zucchini</h3>
+                    <p>I like this super quick, sautéed zucchini - similar in spirit to today's recipe, it is also extra garlicky, and you get those nice browned bits where the zucchini hits the pan. You see it pictured over noodles as well, but I often enjoy it over quinoa or farro. And, this one is an oldie (posted in 2010), but these quick pickled zucchini are always nice to have on hand. Need more ideas? Here’s where I’ve collected all my favorite zucchini recipes.</p>
+                </div>
+                <div class="tip">
+                    <h3>Choose your favorite pasta</h3>
+                    <p>Use your favorite noodles here, long or short. I used bucatini here, but also love stubby shapes with grippy ridges.</p>
+                </div>
+            </div>
+  </section>
+  <section class="social-share">
+            <button>Share on Facebook</button>
+            <button>Share on Twitter</button>
+            <button>Print Recipe</button>
+    </section>
+    <section class="contact">
+        <h2>Contact me if you have any questions</h2>
+        <form>
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Your name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="your@email.com"><br><br>
+            <label for="message">Say Something!</label><br>
+            <textarea id="message" name="message" placeholder="Say Hi!"></textarea><br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+  </div>
+</body>
+</html>
